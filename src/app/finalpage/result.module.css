@@ -1,0 +1,149 @@
+/* result.module.css */
+
+/* Common Styles */
+.main {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    margin-top: 2rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    font-family: 'Poppins', sans-serif;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+}
+
+.tableContainer {
+    width: 90%;
+    margin: 0 auto;
+    /* Centers the table horizontally */
+    margin-left: 0rem;
+    max-height: 20rem;
+    /* Adjust the maximum height as needed */
+    overflow-y: auto;
+    border: 1px solid #e0e0e0;
+    /* Add a subtle border */
+    border-radius: 4px;
+    /* Rounded corners */
+    background-color: #fff;
+    /* White background */
+    margin-bottom: 3rem;
+
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+    margin-bottom: 0rem;
+
+}
+
+.table th,
+.table td {
+    padding: 10px;
+    text-align: center;
+}
+
+.table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+.table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.table tr:hover {
+    background-color: #e3e3e3;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* Header Styles */
+.h1 {
+    color: #4285f4;
+}
+
+/* Route Styles */
+.route-container {
+    margin-top: 20px;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.route-header {
+    background-color: #4285f4;
+    color: #fff;
+    padding: 15px;
+    border-radius: 8px 8px 0 0;
+}
+
+.route-details {
+    margin-top: 10px;
+}
+
+/* Section Styles */
+.section-container {
+    margin-top: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 15px;
+}
+
+.section-header {
+    background-color: #4285f4;
+    color: #fff;
+    padding: 10px;
+    border-radius: 8px 8px 0 0;
+}
+
+.section-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.section-table th,
+.section-table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+.section-table th {
+    background-color: #4285f4;
+    color: #fff;
+}
+
+.section-table td {
+    border-bottom: 1px solid #ddd;
+}
+
+.section-table tr:last-child td {
+    border-bottom: none;
+}
+
+/* Responsive Styles */
+@media (max-width: 600px) {
+    .container {
+        padding: 10px;
+    }
+
+    .route-container,
+    .section-container {
+        margin-top: 10px;
+    }
+}

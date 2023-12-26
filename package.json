@@ -1,0 +1,39 @@
+{
+  "name": "commutify",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "^2.0.1",
+    "axios": "^1.6.2",
+    "bootstrap": "^5.3.2",
+    "cogo-toast": "^4.2.3",
+    "helmet": "^7.1.0",
+    "isotope-layout": "^3.0.6",
+    "jquery": "^3.7.1",
+    "magnific-popup": "^1.1.0",
+    "morphext": "^2.4.7",
+    "next": "14.0.3",
+    "popper.js": "^1.16.1",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-helmet": "^6.1.0",
+    "react-hydration-provider": "^2.1.0",
+    "react-redux": "^9.0.4",
+    "react-router-dom": "^6.20.1",
+    "swiper": "^11.0.5",
+    "validator": "^13.11.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.0.1",
+    "eslint": "^8",
+    "eslint-config-next": "14.0.3",
+    "postcss": "^8",
+    "tailwindcss": "^3.3.0"
+  }
+}
